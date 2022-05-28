@@ -1,0 +1,25 @@
+/*
+Theme Name : montheme
+*/
+
+img {
+    height: 100px;
+}
+
+menu {
+    display:flex;
+}
+
+menuGauche {
+    flex: 1;
+}
+
+menuDroite {
+    flex:1;
+}
+
+li {
+    display:inline;
+    margin: 50px;
+    position: relative;
+}
