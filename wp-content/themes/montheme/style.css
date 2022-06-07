@@ -2,24 +2,87 @@
 Theme Name : montheme
 */
 
+@import url(//db.onlinewebfonts.com/c/2a32094b74bdd4607c616294a8a90740?family=Peace+Sans);
+@import url(https://fr.allfont.net/allfont.css?fonts=open-sans-semibold);
+
 img {
     height: 100px;
 }
 
-menu {
-    display:flex;
+h1 {
+    font-family: peace sans;
+    font-size: 80px;
+    color: white;
 }
 
-menuGauche {
-    flex: 1;
+.sectionTitreHome {
+    background-image: url('./img/Home.jpg');
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 1000px;
+
+  }
+
+.sousTitre {
+    font-family: 'Open Sans Semibold', arial;
+    font-size: 30px;
+    color: white;
+    width: 800px;
 }
 
-menuDroite {
-    flex:1;
+.boutonSousTitre {
+    background-color: white;
+    width: 248px;
+    height : 46px;
+    border-radius : 37px;
+    font-family: 'Open Sans Semibold', arial;
+    font-size: 24px;
+    color: black;
+    border: none;
+}
+  .sectionDescriptif {
+    width: 100%;
+    height: 400px;
+  }
+
+  .icone {
+    height: 48px;
+    width: 48px;
+  }
+
+  .titreDescriptif {
+    font-family: peace sans;
+    font-size: 25px;
+    color: #3B2A93;
+  }
+
+  .sousTitreDescriptif {
+    font-family: 'Open Sans Semibold', arial;
+    font-size: 16px;
+    color: black;
+    width: 300px;
 }
 
-li {
-    display:inline;
-    margin: 50px;
-    position: relative;
+.sectionCarousel {
+  width: 100%;
+  height: 400px;
+}
+
+.sectionNews {
+  width: 100%;
+  height: 400px;
+}
+
+.titreNews {
+  font-family: peace sans;
+  font-size: 40px;
+  color: #3B2A93;
+}
+
+.sectionTitreNosOffres {
+  background-image: url('./img/Nos-offres.jpg');
+  background-repeat: no-repeat;
+  margin: 0;
+  height: 700px;
+
 }

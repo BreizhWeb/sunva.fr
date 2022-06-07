@@ -15,6 +15,12 @@
 
 get_header();
 ?>
-<h1>Contact</h1>
+<div class="container">
+    <div class="row">
+        <div class="col sectionTitreHome">
+            
+        </div>
+    </div>
+</div>
 <?php get_footer();
 ?>
