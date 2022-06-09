@@ -5,9 +5,73 @@ Theme Name : montheme
 @import url(//db.onlinewebfonts.com/c/2a32094b74bdd4607c616294a8a90740?family=Peace+Sans);
 @import url(https://fr.allfont.net/allfont.css?fonts=open-sans-semibold);
 
-img {
-    height: 100px;
+body {
+  margin:0px;
 }
+
+nav {
+  width: 100%;
+  height: 80px;
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.containerNav {
+  height: 90%;
+  width: 80%;
+  background-color: green;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menuLogo {
+
+}
+
+.logoHeader {
+  width: 200px;
+}
+
+.menuLink {
+  background-color:black;
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 h1 {
     font-family: peace sans;
@@ -19,9 +83,10 @@ h1 {
     background-image: url('./img/Home.jpg');
     background-repeat: no-repeat;
     width: 100%;
-    height: 1000px;
 
   }
+
+
 
 .sousTitre {
     font-family: 'Open Sans Semibold', arial;
@@ -85,4 +150,17 @@ h1 {
   margin: 0;
   height: 700px;
 
+}
+
+.logoFooter {
+  width: 50%;
+}
+
+
+.iconeHome {
+  color: white;
+  height: 50px;
+  width: 50px;
+  margin: 5px;
+  border: none;
 }

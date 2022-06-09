@@ -6,13 +6,18 @@
 
     <!-- Section: Text -->
     <section class="d-flex justify-content-center align-items-center">
-        <div>
-            <p>
-                Salut
-            </p>
-            <div>
-                <p>02 99 01 03 22</p>
-                <p>Contact@sunva.fr</p>
+        <div class="row">
+            <div class="col-6">
+              <a class="navbar-brand" href="<?php echo home_url(); ?>">   <?php 
+                $image = get_field('logoFooter');
+                if( !empty( $image ) ): ?>
+                    <img src="<?php echo esc_url($image['url']); ?>" class="logoFooter" alt="<?php echo esc_attr($image['alt']); ?>" />
+                <?php endif; ?>
+              </a>   
+            </div>
+            <div class="col-6">
+                <p><a class="text-white" href="#">02 99 01 03 22</a></p>
+                <p><a class="text-white" href="#">contact@sunva.fr</a></p>
                 <p>35 Rue des Dolimites - 56000 VANNES</p>
             </div>
         </div>
@@ -22,17 +27,17 @@
 
     <!-- Section: Social media -->
     <section class="mb-4">
-      <!-- Facebook -->
-      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-facebook-f"></i></a>
+       <!-- Facebook -->
+       <a class="btn btn-floating m-1 iconeHome" href="#!" role="button"><i class="fab fa-facebook-f"></i></a>
 
       <!-- Youtube -->
-      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-youtube"></i></a>
+      <a class="btn btn-floating m-1 iconeHome" href="#!" role="button"><i class="fab fa-youtube"></i></a>
 
       <!-- Instagram -->
-      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-instagram"></i></a>
+      <a class="btn btn-floating m-1 iconeHome" href="#!" role="button"><i class="fab fa-instagram"></i></a>
 
       <!-- Snapchat -->
-      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-snapchat"></i></a>
+      <a class="btn btn-floating m-1 iconeHome" href="#!" role="button"><i class="fab fa-snapchat"></i></a>
 
     </section>
     <!-- Section: Social media -->

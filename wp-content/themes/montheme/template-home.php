@@ -63,19 +63,19 @@ get_header();
         </div>
         <div class="col">
             <div>
-                <img src="" alt="">
-                <p></p>
-                <input type="text">
+                <img src="./img/Contact.jpg" alt="">
+                <p>GGGGGGGGGG</p>
+                <input type="button">
             </div>
             <div>
                 <img src="" alt="">
-                <p></p>
-                <input type="text">
+                <p>GGGGGGGGGGGGGGG</p>
+                <input type="button">
             </div>
             <div>
                 <img src="" alt="">
-                <p></p>
-                <input type="text">
+                <p>GGGGGGGGGGG</p>
+                <input type="button">
             </div>
         </div>
     </div>
