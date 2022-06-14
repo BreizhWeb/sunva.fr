@@ -15,19 +15,14 @@
 
 get_header();
 ?>
-<div class="container">
-    <div class="row">
-        <div class="col sectionTitreNosOffres">
-            <h1><?php the_field('titre') ?></h1>
+<div>
+    <div class="sectionTitreNosOffres">
+        <div class="content">
+            <h1 class="titre"><?php the_field('titre') ?></h1>
             <h2 class="sousTitre"><?php the_field('sous-titre') ?></h2>
         </div>
     </div>
-    <div class="row">
-        <div class="col">
-            <h1 class="titreNews">Les formules</h1>
-            <h2 class="sousTitre"><?php the_field('sous-titre') ?></h2>
-        </div>
-    </div>
+</div>
     <div class="row">
         <div class="col">
             <div class="col">

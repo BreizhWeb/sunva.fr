@@ -5,23 +5,57 @@ Theme Name : montheme
 @import url(//db.onlinewebfonts.com/c/2a32094b74bdd4607c616294a8a90740?family=Peace+Sans);
 @import url(https://fr.allfont.net/allfont.css?fonts=open-sans-semibold);
 
+/* ALL */
 body {
   margin:0px;
 }
 
+.flex {
+  display: flex;
+}
+
+.content {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.icone {
+  height: 48px;
+  width: 48px;
+}
+
+.logoFooter {
+  width: 50%;
+}
+
+
+.iconeHome {
+  color: white;
+  height: 50px;
+  width: 50px;
+  margin: 5px;
+  border: none;
+}
+
+.iconeHome:hover {
+  border: none;
+}
+
+
 nav {
   width: 100%;
   height: 80px;
-  background-color: blue;
   display: flex;
   justify-content: center;
   align-items: center;
+  position: fixed;
+  z-index: 100;
+  background-color: white;
 }
 
 .containerNav {
   height: 90%;
   width: 80%;
-  background-color: green;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -36,84 +70,69 @@ nav {
 }
 
 .menuLink {
-  background-color:black;
-  width: 50%;
+  width: 70%;
   display: flex;
-  justify-content: space-between;
+  gap: 60px;
+  justify-content: right;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-h1 {
-    font-family: peace sans;
-    font-size: 80px;
-    color: white;
+.menuLink a {
+  font-family: peace sans;
+  font-size: 20px;
+  color : #3B2A93;
 }
 
 .sectionTitreHome {
-    background-image: url('./img/Home.jpg');
-    background-repeat: no-repeat;
-    width: 100%;
+  background: url('./img/Home.jpg');
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
 
-  }
-
-
+.titre {
+    font-family: peace sans;
+    font-size: 70px;
+    color: white;
+}
 
 .sousTitre {
     font-family: 'Open Sans Semibold', arial;
-    font-size: 30px;
+    font-size: 28px;
     color: white;
     width: 800px;
 }
 
 .boutonSousTitre {
     background-color: white;
-    width: 248px;
-    height : 46px;
+    width: 228px;
+    height : 36px;
     border-radius : 37px;
+    border: none;
     font-family: 'Open Sans Semibold', arial;
     font-size: 24px;
     color: black;
-    border: none;
+    margin-top: 30px;
 }
+
   .sectionDescriptif {
     width: 100%;
-    height: 400px;
+    height: 300px;
+    align-items: center;
+    justify-content: space-between;
+    display: inline-flex;
   }
 
-  .icone {
-    height: 48px;
-    width: 48px;
+  .containerLogoDescriptif {
+    margin: auto;
   }
+
+  .logoDescriptif {
+    margin-right: 20px;
+}
 
   .titreDescriptif {
     font-family: peace sans;
@@ -130,7 +149,8 @@ h1 {
 
 .sectionCarousel {
   width: 100%;
-  height: 400px;
+  height: 500px;
+  align-items: center;
 }
 
 .sectionNews {
@@ -144,23 +164,217 @@ h1 {
   color: #3B2A93;
 }
 
-.sectionTitreNosOffres {
-  background-image: url('./img/Nos-offres.jpg');
-  background-repeat: no-repeat;
-  margin: 0;
-  height: 700px;
-
+.sectionNewsletter {
+  background: url('./img/aventure-photo-road.jpg');
+  width: 100%;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
 }
 
-.logoFooter {
-  width: 50%;
-}
-
-
-.iconeHome {
+.titre-news {
+  font-family: peace sans;
+  font-size: 30px;
   color: white;
-  height: 50px;
-  width: 50px;
-  margin: 5px;
-  border: none;
 }
+
+.sousTitre-news {
+  font-family: 'Open Sans Semibold', arial;
+  font-size: 25px;
+  color: white;
+  width: 850px;
+}
+
+
+/* sunvaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa */
+
+
+.sectionTitreSunva {
+  background: url('./img/Sunva.jpg');
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.sectionSunvaTitre {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.sousTitreSunva {
+  font-family: peace sans;
+  font-size: 28px;
+  color: #3B2A93;
+  width: 800px;
+}
+
+.sectionSunvaPhoto {
+  width: 100%;
+  height: 1200px;
+  display: flex;
+  align-items: center;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.contentSunva {
+  text-align: center;
+}
+
+.photo {
+  height: 240px;
+  width: 240px;
+}
+
+.texteNom {
+  font-family: peace sans;
+  font-size: 20px;
+  color: #3B2A93;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.descriptifNom {
+  font-family: 'Open Sans Semibold', arial;
+  font-size: 20px;
+  color: black;
+}
+
+.sectionConcept {
+background-color: orange;
+width: 100%;
+height: 500px;
+}
+
+.vanOrange {
+  background: url('./img/Nos-offres.jpg');
+  width: 40%;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.concept {
+  left: 0;
+  width: 60%;
+  padding: 80px;
+}
+
+.titreConcept {
+  font-family: peace sans;
+  font-size: 30px;
+  color: black;
+  padding-bottom: 40px;
+}
+
+
+
+/* nos offresssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss */
+
+.sectionTitreNosOffres {
+  background: url('./img/Nos-offres.jpg');
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+
+/* le blogggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg */
+
+
+.sectionTitreLeBlog {
+  background: url('./img/le-blog.jpg');
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+/* contactttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt */
+
+
+.sectionTitreContact {
+  background: url('./img/Contact.jpg');
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.formulaire {
+  height: 400px;
+  width: 700px;
+  background-color: white;
+  border-radius: 15px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 5%;
+}
+
+.wpcf7-form {
+  width:100%;
+  text-align:center;
+}
+.wpcf7-text, .wpcf7-email, .wpcf7-tel {
+  align-items: center;
+  justify-content: center;
+  text-align:left;
+  margin: 10px;
+  border-radius: 5px;
+  border-width: 1px;
+  border-style: solid;
+  border-color : black;
+}
+.wpcf7-textarea {
+  height: 100px;
+  width: 338px;
+  margin: 10px;
+  border-radius: 5px;
+  border-style: solid;
+  resize:none;
+  border-width: 1px;
+  border-style: solid;
+  border-color : black;
+}
+
+.wpcf7-not-valid-tip, .wpcf7-response-output {
+  display: none;
+}
+
+.wpcf7-submit {
+  background-color:#3B2A93;
+  width: 150px;
+  height : 36px;
+  border-radius : 37px;
+  border: none;
+  font-family: 'Open Sans Semibold', arial;
+  font-size: 16px;
+  color: white;
+  margin-top: 30px;
+}
+ 

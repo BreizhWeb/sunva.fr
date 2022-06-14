@@ -15,53 +15,65 @@
 
 get_header();
 ?>
-<div class="container">
-    <div class="row">
-        <div class="col sectionTitreHome">
-            <h1><?php the_field('titre') ?></h1>
+<div>
+    <div class="sectionTitreHome">
+        <div class="content">
+            <h1 class="titre"><?php the_field('titre') ?></h1>
             <h2 class="sousTitre"><?php the_field('sous-titre') ?></h2>
             <button class="boutonSousTitre"><?php the_field('bouton-sous-titre') ?></button>
         </div>
     </div>
-    <div class="row sectionDescriptif">
-        <div class="col">
-            <?php 
-            $image = get_field('logo-descriptif-1');
-            if( !empty( $image ) ): ?>
-                <img src="<?php echo esc_url($image['url']); ?>" class="icone" alt="<?php echo esc_attr($image['alt']); ?>" />
-            <?php endif; ?>
-            <h2 class="titreDescriptif"><?php the_field('titre-descriptif-1') ?></h2>
-            <h3 class="sousTitreDescriptif"><?php the_field('texte-descriptif-1') ?></h3>
+    <div class="sectionDescriptif content">
+        <div class="flex">
+            <div class="containerLogoDescriptif">
+                <?php 
+                $image = get_field('logo-descriptif-1');
+                if( !empty( $image ) ): ?>
+                    <img src="<?php echo esc_url($image['url']); ?>" class="icone logoDescriptif" alt="<?php echo esc_attr($image['alt']); ?>" />
+                <?php endif; ?>
+            </div>
+            <div>
+                <h2 class="titreDescriptif"><?php the_field('titre-descriptif-1') ?></h2>
+                <h3 class="sousTitreDescriptif"><?php the_field('texte-descriptif-1') ?></h3>     
+            </div>
         </div>
-        <div class="col">
-            <?php 
-            $image = get_field('logo-descriptif-2');
-            if( !empty( $image ) ): ?>
-                <img src="<?php echo esc_url($image['url']); ?>" class="icone" alt="<?php echo esc_attr($image['alt']); ?>" />
-            <?php endif; ?>
-            <h2 class="titreDescriptif"><?php the_field('titre-descriptif-2') ?></h2>
-            <h3 class="sousTitreDescriptif"><?php the_field('texte-descriptif-2') ?></h3>
+        <div class="flex">
+            <div class="containerLogoDescriptif">
+                <?php 
+                $image = get_field('logo-descriptif-2');
+                if( !empty( $image ) ): ?>
+                    <img src="<?php echo esc_url($image['url']); ?>" class="icone logoDescriptif" alt="<?php echo esc_attr($image['alt']); ?>" />
+                <?php endif; ?>
+            </div>
+            <div>
+                <h2 class="titreDescriptif"><?php the_field('titre-descriptif-2') ?></h2>
+                <h3 class="sousTitreDescriptif"><?php the_field('texte-descriptif-2') ?></h3>
+            </div>   
         </div>
-        <div class="col">
-            <?php 
-            $image = get_field('logo-descriptif-3');
-            if( !empty( $image ) ): ?>
-                <img src="<?php echo esc_url($image['url']); ?>" class="icone" alt="<?php echo esc_attr($image['alt']); ?>" />
-            <?php endif; ?>
-            <h2 class="titreDescriptif"><?php the_field('titre-descriptif-3') ?></h2>
-            <h3 class="sousTitreDescriptif"><?php the_field('texte-descriptif-3') ?></h3>
+        <div class="flex">
+            <div class="containerLogoDescriptif">
+                <?php 
+                $image = get_field('logo-descriptif-3');
+                if( !empty( $image ) ): ?>
+                    <img src="<?php echo esc_url($image['url']); ?>" class="icone logoDescriptif" alt="<?php echo esc_attr($image['alt']); ?>" />
+                <?php endif; ?>
+            </div>
+            <div>
+                <h2 class="titreDescriptif"><?php the_field('titre-descriptif-3') ?></h2>
+                <h3 class="sousTitreDescriptif"><?php the_field('texte-descriptif-3') ?></h3>
+            </div>
         </div>
     </div>
-    <div class="row sectionCarousel">
-        <div class="col">
-            <?php echo do_shortcode('[sp_wpcarousel id="116"]'); ?>
+    <div class="sectionCarousel">
+        <div>
+            <?php echo do_shortcode('[metaslider id="207"]'); ?>
         </div>
     </div>
-    <div class="row sectionNews">
-        <div class="col">
+    <div class="sectionNews">
+        <div class="content">
             <h3 class="titreNews"><?php the_field('news') ?></h3>
         </div>
-        <div class="col">
+        <div>
             <div>
                 <img src="./img/Contact.jpg" alt="">
                 <p>GGGGGGGGGG</p>
@@ -77,6 +89,13 @@ get_header();
                 <p>GGGGGGGGGGG</p>
                 <input type="button">
             </div>
+        </div>
+    </div>
+    <div class="sectionNewsletter">
+        <div class="content">   
+            <h2 class="titre-news"><?php the_field('titre-newsletter') ?></h2>
+            <h3 class="sousTitre-news"><?php the_field('texte-newsletter') ?></h3>
+            <a href="http://localhost/Sunva/nos-offres/"><button class="boutonSousTitre"><?php the_field('bouton-newsletter') ?></button></a>
         </div>
     </div>
 </div>

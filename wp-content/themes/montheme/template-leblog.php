@@ -15,6 +15,13 @@
 
 get_header();
 ?>
-<h1>Le blog</h1>
+<div>
+    <div class="sectionTitreLeBlog">
+        <div class="content">
+            <h1 class="titre"><?php the_field('titre') ?></h1>
+            <h2 class="sousTitre"><?php the_field('sous-titre') ?></h2>
+        </div>
+    </div>
+</div>
 <?php get_footer();
 ?>

@@ -26,18 +26,12 @@
 
 
     <!-- Section: Social media -->
-    <section class="mb-4">
+    <section class="mb-2">
        <!-- Facebook -->
-       <a class="btn btn-floating m-1 iconeHome" href="#!" role="button"><i class="fab fa-facebook-f"></i></a>
-
-      <!-- Youtube -->
-      <a class="btn btn-floating m-1 iconeHome" href="#!" role="button"><i class="fab fa-youtube"></i></a>
+       <a class="btn btn-floating m-1 iconeHome" href="https://www.facebook.com/sunva.fr" role="button"><i class="fab fa-facebook-f"></i></a>
 
       <!-- Instagram -->
-      <a class="btn btn-floating m-1 iconeHome" href="#!" role="button"><i class="fab fa-instagram"></i></a>
-
-      <!-- Snapchat -->
-      <a class="btn btn-floating m-1 iconeHome" href="#!" role="button"><i class="fab fa-snapchat"></i></a>
+      <a class="btn btn-floating m-1 iconeHome" href="https://www.instagram.com/sunva.fr/" role="button"><i class="fab fa-instagram"></i></a>
 
     </section>
     <!-- Section: Social media -->

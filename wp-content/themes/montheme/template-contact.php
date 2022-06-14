@@ -15,10 +15,13 @@
 
 get_header();
 ?>
-<div class="container">
-    <div class="row">
-        <div class="col sectionTitreHome">
-            
+<div>
+    <div class="sectionTitreContact">
+        <div class="content">
+            <div class="formulaire">
+                <h1 class="titreDescriptif">Contactez-nous</h1>
+                <?php echo do_shortcode( '[contact-form-7 id="204" title="contact"]' ); ?>
+            </div>
         </div>
     </div>
 </div>
