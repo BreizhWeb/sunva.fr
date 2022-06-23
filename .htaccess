@@ -8,6 +8,9 @@ RewriteEngine On
 RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
 RewriteBase /Sunva/
 RewriteRule ^index\.php$ - [L]
+RewriteRule ^sunvalogin/?$ /Sunva/wp-login.php [QSA,L]
+RewriteRule ^sunvalogin/register/?$ /Sunva/wp-login.php?action=register [QSA,L]
+RewriteRule ^sunvalogin/lostpassword/?$ /Sunva/wp-login.php?action=lostpassword [QSA,L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule . /Sunva/index.php [L]

@@ -1,0 +1,537 @@
+# Translation of Plugins - WP Plugin Info Card - Stable (latest release) in French (France)
+# This file is distributed under the same license as the Plugins - WP Plugin Info Card - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2019-06-01 07:16:03+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: fr\n"
+"Project-Id-Version: Plugins - WP Plugin Info Card - Stable (latest release)\n"
+
+#: wp-plugin-info-card.php:84
+msgid "WP Plugin Info Card Settings"
+msgstr "Réglages de WP Plugin Info Card"
+
+#: wp-plugin-info-card.php:84
+msgid "Settings"
+msgstr "Réglages"
+
+#: wp-plugin-info-card.php:95
+msgid "Documentation and examples"
+msgstr "Documentation et exemples"
+
+#: wp-plugin-info-card.php:96
+msgid "More plugins by b*web"
+msgstr "Plus d’extensions b*web"
+
+#: src/wp-plugin-info-card-ui-lang.php:19
+msgid "Insert WP Plugin Info Card Shortcode"
+msgstr "Insérer un code court WP Plugin Info Card"
+
+#: src/wp-plugin-info-card-ui-lang.php:20
+msgid "Type of data to retrieve"
+msgstr "Type d'infos à retrouver"
+
+#: src/wp-plugin-info-card-ui-lang.php:21
+msgid "The Slug/ID"
+msgstr "L’identifiant"
+
+#: src/wp-plugin-info-card-ui-lang.php:22
+msgid "Layout structure"
+msgstr "Structure de mise en page"
+
+#: src/wp-plugin-info-card-ui-lang.php:23
+msgid "Color scheme (not available for WordPress layout)"
+msgstr "Style de couleur (non compatible avec le thème WP)"
+
+#: src/wp-plugin-info-card-ui-lang.php:24
+msgid "Custom image URL"
+msgstr "URL de l'image personnalisée"
+
+#: src/wp-plugin-info-card-ui-lang.php:25
+msgid "Cards alignment"
+msgstr "Alignement de la carte"
+
+#: src/wp-plugin-info-card-ui-lang.php:26
+msgid "Custom container ID"
+msgstr "ID personnalisé du conteneur"
+
+#: src/wp-plugin-info-card-ui-lang.php:27
+msgid "Custom container margin (15px 0)"
+msgstr "Marge personnalisée du conteneur (15px 0)"
+
+#: src/wp-plugin-info-card-ui-lang.php:28
+msgid "Clear container float"
+msgstr "Nettoyer le float du conteneur"
+
+#: src/wp-plugin-info-card-ui-lang.php:29
+msgid "Cache duration in minutes (num. only)"
+msgstr "Durée du cache en minutes (num. seulement)"
+
+#: src/wp-plugin-info-card-ui-lang.php:30
+msgid "Load data async. with AJAX"
+msgstr "Charger les données avec AJAX"
+
+#: src/wp-plugin-info-card-ui-lang.php:31
+msgid "Single value to output"
+msgstr "Valeur unique à retourner"
+
+#: src/wp-plugin-info-card-ui-lang.php:32
+msgid "Do not specify"
+msgstr "Ne pas spécifier"
+
+#: src/wp-plugin-info-card-ui-lang.php:33
+msgid "Default scheme"
+msgstr "Thème par défaut"
+
+#: src/wp-plugin-info-card-ui-lang.php:34
+msgid "yes"
+msgstr "oui"
+
+#: src/wp-plugin-info-card-ui-lang.php:35
+msgid "no"
+msgstr "non"
+
+#: src/wp-plugin-info-card-ui-lang.php:36
+msgid "center"
+msgstr "centrer"
+
+#: src/wp-plugin-info-card-ui-lang.php:37
+msgid "left"
+msgstr "gauche"
+
+#: src/wp-plugin-info-card-ui-lang.php:38
+msgid "right"
+msgstr "droite"
+
+#: src/wp-plugin-info-card-ui-lang.php:39
+msgid "before"
+msgstr "avant"
+
+#: src/wp-plugin-info-card-ui-lang.php:40
+msgid "after"
+msgstr "après"
+
+#: src/wp-plugin-info-card-ui-lang.php:41
+msgid "You have to provide at least the slug/id parameter to continue."
+msgstr "Vous devez fournir au moins le paramètre identifiant pour poursuivre."
+
+#: src/wp-plugin-info-card-admin.php:65
+msgid "Color scheme"
+msgstr "Modèle de couleurs"
+
+#: src/wp-plugin-info-card-admin.php:72
+msgid "Force enqueuing CSS & JS"
+msgstr "Forcer l'ajout des fichiers CSS et JS"
+
+#: src/wp-plugin-info-card-admin.php:79
+msgid "By default the plugin enqueues scripts (JS & CSS) only for pages containing the shortcode. If you wish to force scripts enqueuing, check this box."
+msgstr "Par défaut, les scripts de l’extension (JS et CSS) ne sont appelés que sur les pages contenant le code court. Si vous voulez forcer leur ajout, cochez cette case."
+
+#: src/wp-plugin-info-card-admin.php:84
+msgid "Display a discrete credit"
+msgstr "Afficher un crédit discret"
+
+#: src/wp-plugin-info-card-admin.php:103
+msgid "Enable dashboard widget"
+msgstr "Activer le widget du tableau de bord"
+
+#: src/wp-plugin-info-card-admin.php:110
+msgid "Help: Don't forget to open the dashboard option panel (top right) to display it on your dashboard."
+msgstr "Aide : N'oubliez pas d'ouvrir le menu \"options de l'écran\" (en haut à droite) du tableau de bord pour activer le widget si ce n'est pas le cas."
+
+#: src/wp-plugin-info-card-admin.php:115
+msgid "Ajaxify dashboard widget"
+msgstr "Widget du tableau de bord en Ajax"
+
+#: src/wp-plugin-info-card-admin.php:122
+msgid "Will load the data asynchronously with AJAX."
+msgstr "Chargera les données du widget de manière asynchrone grâce à AJAX"
+
+#: src/wp-plugin-info-card-admin.php:127
+msgid "List of items to display"
+msgstr "Liste des éléments à afficher"
+
+#: src/wp-plugin-info-card-admin.php:155
+msgid "Cache was successfully cleared"
+msgstr "Le cache a bien été vidé"
+
+#: src/wp-plugin-info-card-admin.php:190
+msgid "Shortcode parameters"
+msgstr "Paramètres du code court"
+
+#: src/wp-plugin-info-card-admin.php:192
+msgid "(default: plugin)"
+msgstr "(défaut : extension)"
+
+#: src/wp-plugin-info-card-admin.php:196
+msgid "Image URL to override default WP logo (default: empty)"
+msgstr "URL de l’image pour remplacer le logo WP par défaut (défaut : vide)"
+
+#: src/wp-plugin-info-card-admin.php:197
+msgid "(default: empty)"
+msgstr "(défaut : vide)"
+
+#: src/wp-plugin-info-card-admin.php:198
+msgid "custom div id, may be used for anchor (default: wp-pic-PLUGIN-NAME)"
+msgstr " ID personnalisée de la carte, peut être utilisée pour faire des ancres (défaut : wp-pic-IDENTIFIANT)"
+
+#: src/wp-plugin-info-card-admin.php:199
+msgid "custom container margin - eg: \"15px 0\" (default: empty)"
+msgstr "marge autour de la carte – ex :  \"15px 0 \" (défaut : vide)"
+
+#: src/wp-plugin-info-card-admin.php:200
+msgid "clear float before or after the card: before, after (default: empty"
+msgstr "réinitialiser le float avant ou après la carte : before, after (défaut : vide)"
+
+#: src/wp-plugin-info-card-admin.php:201
+msgid "cache duration in minutes - numeric format only (default: 720)"
+msgstr "la durée de vie du cache en minutes – valeur numérique uniquement  (défaut : 720)"
+
+#: src/wp-plugin-info-card-admin.php:202
+msgid "load the plugin data asynchronously with AJAX: yes, no (default: no)"
+msgstr "charger les informations de l’extension de manière asynchrone grâce à AJAX : yes, no (défaut : no)"
+
+#: src/wp-plugin-info-card-admin.php:203
+msgid "value to display: (default: empty)"
+msgstr "valeur à afficher (défaut : vide)"
+
+#: src/wp-plugin-info-card-admin.php:205
+msgid "For plugins:"
+msgstr "Pour les extensions :"
+
+#: src/wp-plugin-info-card-admin.php:206
+msgid "For themes:"
+msgstr "Pour les thèmes :"
+
+#: src/wp-plugin-info-card-admin.php:228
+msgid "General options"
+msgstr "Options générales"
+
+#: src/wp-plugin-info-card-admin.php:241
+msgid "Dashboard Widget Settings"
+msgstr "Options du widget du tableau de bord"
+
+#: src/wp-plugin-info-card-admin.php:310
+msgid "Default color scheme for your cards."
+msgstr "Modèle de couleurs par défaut de la carte"
+
+#: src/wp-plugin-info-card-admin.php:409
+msgid "Plugin homepage"
+msgstr "Page de l’extension"
+
+#: src/wp-plugin-info-card-admin.php:411
+msgid "Support"
+msgstr "Support"
+
+#: src/wp-plugin-info-card-ui.php:31
+msgid "Card (default)"
+msgstr "Carte (défaut)"
+
+#: src/wp-plugin-info-card-ui.php:32 src/block/edit.js:206 dist/main.js:2
+msgid "Large"
+msgstr "Large"
+
+#: src/wp-plugin-info-card-ui.php:33 src/block/edit.js:207 dist/main.js:2
+msgid "WordPress"
+msgstr "WordPress"
+
+#: src/wp-plugin-info-card-add-theme.php:106
+msgid "Add a theme"
+msgstr "Ajouter un thème"
+
+#: src/wp-plugin-info-card-add-theme.php:107
+msgid "Please refer to the theme URL on wordpress.org to determine its slug"
+msgstr "Merci de vous référer à l'URL du thème sur WordPress.org pour déterminer son identifiant"
+
+#: src/wp-plugin-info-card-add-theme.php:118
+msgid "is not a valid theme name format. This key has been deleted."
+msgstr "n'est pas un format de nom de thème valide. Cette clé a été supprimée."
+
+#: src/wp-plugin-info-card-add-theme.php:127
+msgid "Themes"
+msgstr "Thèmes"
+
+#: src/wp-plugin-info-card-add-theme.php:144
+#: src/wp-plugin-info-card-add-plugin.php:164
+msgid "Ratings:"
+msgstr "Notes :"
+
+#: src/wp-plugin-info-card-add-theme.php:148
+msgid "Downloads:"
+msgstr "Téléchargements :"
+
+#: src/wp-plugin-info-card-add-theme.php:143
+#: src/wppic-templates/wppic-template-theme-large.php:44
+#: src/wppic-templates/wppic-template-plugin.php:45
+#: src/wppic-templates/wppic-template-plugin.php:46
+#: src/wppic-templates/wppic-template-plugin.php:56
+#: src/wppic-templates/wppic-template-plugin.php:78
+#: src/wppic-templates/wppic-template-plugin.php:82
+#: src/wppic-templates/wppic-template-plugin.php:84
+#: src/wppic-templates/wppic-template-plugin-flex.php:54
+#: src/wppic-templates/wppic-template-plugin-flex.php:58
+#: src/wppic-templates/wppic-template-plugin-flex.php:80
+#: src/wppic-templates/wppic-template-plugin-flex.php:85
+#: src/wppic-templates/wppic-template-plugin-large.php:45
+#: src/wppic-templates/wppic-template-plugin-large.php:50
+#: src/wppic-templates/wppic-template-plugin-large.php:66
+#: src/wppic-templates/wppic-template-theme-flex.php:47
+#: src/wppic-templates/wppic-template-theme.php:34
+#: src/wppic-templates/wppic-template-theme.php:56
+#: src/wp-plugin-info-card-add-plugin.php:163
+msgid "WordPress.org Plugin Page"
+msgstr "Voir sur WordPress.org"
+
+#: src/wp-plugin-info-card-add-theme.php:149
+#: src/wppic-templates/wppic-template-theme-large.php:31
+#: src/wppic-templates/wppic-template-plugin-wordpress.php:69
+#: src/wppic-templates/wppic-template-plugin.php:69
+#: src/wppic-templates/wppic-template-plugin-flex.php:64
+#: src/wppic-templates/wppic-template-plugin-large.php:53
+#: src/wppic-templates/wppic-template-theme-flex.php:34
+#: src/wppic-templates/wppic-template-theme.php:47
+#: src/wppic-templates/wppic-template-theme-wordpress.php:47
+#: src/wp-plugin-info-card-add-plugin.php:169
+#: src/block/templates/PluginLarge.js:75 src/block/templates/ThemeLarge.js:53
+#: src/block/templates/ThemeWordPress.js:83 src/block/templates/ThemeFlex.js:46
+#: src/block/templates/PluginFlex.js:47
+#: src/block/templates/PluginWordPress.js:95 dist/main.js:2
+msgid "Last Updated:"
+msgstr "Dernière mise à jour :"
+
+#: src/wp-plugin-info-card-add-plugin.php:139
+msgid "is not a valid plugin name format. This key has been deleted."
+msgstr "n'est pas un format de nom d’extension valide. Cet élément a été supprimé."
+
+#: src/wp-plugin-info-card-add-plugin.php:148
+msgid "Plugins"
+msgstr "Extensions"
+
+#: src/wp-plugin-info-card-widget.php:128
+#: src/wp-plugin-info-card-shortcode.php:284
+#: src/wp-plugin-info-card-shortcode.php:371
+#: src/wp-plugin-info-card-shortcode.php:492
+msgid "Item not found:"
+msgstr "Élément non trouvé :"
+
+#: src/wp-plugin-info-card-widget.php:128
+#: src/wp-plugin-info-card-shortcode.php:284
+#: src/wp-plugin-info-card-shortcode.php:371
+#: src/wp-plugin-info-card-shortcode.php:492
+msgid "does not exist."
+msgstr "n'existe pas."
+
+#: src/wp-plugin-info-card-shortcode.php:524
+msgid "This card has been generated with WP Plugin Info Card"
+msgstr "Cette carte a été générée avec WP Plugin Info Card"
+
+#: src/wp-plugin-info-card-widget.php:94
+msgid "Nothing found, please add at least one item in the WP Plugin Info Card settings page."
+msgstr "Aucune donnée, merci d'ajouter des éléments dans la page d'options de WP Plugin Info Card."
+
+#: src/wppic-templates/wppic-template-theme-large.php:29
+#: src/wppic-templates/wppic-template-plugin.php:47
+#: src/wppic-templates/wppic-template-plugin-flex.php:70
+#: src/wppic-templates/wppic-template-plugin-large.php:51
+#: src/wppic-templates/wppic-template-theme-flex.php:37
+#: src/wppic-templates/wppic-template-theme.php:25
+#: src/block/templates/PluginLarge.js:61 src/block/templates/ThemeLarge.js:39
+#: src/block/templates/ThemeFlex.js:56 src/block/templates/PluginFlex.js:68
+#: src/block/templates/PluginCard.js:49 src/block/templates/ThemeCard.js:35
+#: dist/main.js:2
+msgid "Author(s):"
+msgstr "Auteur(s) :"
+
+#: src/wppic-templates/wppic-template-theme-large.php:38
+#: src/wppic-templates/wppic-template-theme-large.php:39
+#: src/wppic-templates/wppic-template-plugin.php:50
+#: src/wppic-templates/wppic-template-plugin.php:51
+#: src/wppic-templates/wppic-template-plugin.php:72
+#: src/wppic-templates/wppic-template-plugin.php:73
+#: src/wppic-templates/wppic-template-plugin-flex.php:74
+#: src/wppic-templates/wppic-template-plugin-flex.php:75
+#: src/wppic-templates/wppic-template-plugin-large.php:60
+#: src/wppic-templates/wppic-template-plugin-large.php:61
+#: src/wppic-templates/wppic-template-theme-flex.php:41
+#: src/wppic-templates/wppic-template-theme-flex.php:42
+#: src/wppic-templates/wppic-template-theme.php:28
+#: src/wppic-templates/wppic-template-theme.php:29
+#: src/wppic-templates/wppic-template-theme.php:50
+#: src/wppic-templates/wppic-template-theme.php:51
+#: src/block/templates/PluginLarge.js:89 src/block/templates/ThemeLarge.js:67
+#: src/block/templates/ThemeFlex.js:69 src/block/templates/PluginFlex.js:77
+#: src/block/templates/PluginCard.js:57 src/block/templates/ThemeCard.js:43
+#: dist/main.js:2
+msgid "Ratings"
+msgstr "Notes"
+
+#: src/wppic-templates/wppic-template-theme-large.php:42
+#: src/wppic-templates/wppic-template-theme-flex.php:45
+#: src/wppic-templates/wppic-template-theme.php:32
+#: src/wppic-templates/wppic-template-theme.php:54
+#: src/wppic-templates/wppic-template-theme-wordpress.php:50
+#: src/block/templates/ThemeLarge.js:77 src/block/templates/ThemeFlex.js:79
+#: src/block/templates/ThemeCard.js:52 dist/main.js:2
+msgid "Downloads"
+msgstr "Téléchargements"
+
+#: src/wppic-templates/wppic-template-plugin.php:57
+#: src/wppic-templates/wppic-template-plugin.php:79
+#: src/wppic-templates/wppic-template-plugin-flex.php:81
+#: src/wppic-templates/wppic-template-plugin-large.php:67
+#: src/block/templates/PluginLarge.js:108 src/block/templates/PluginFlex.js:96
+#: src/block/templates/PluginCard.js:75 dist/main.js:2
+msgid "Requires"
+msgstr "Nécessaire"
+
+#: src/wppic-templates/wppic-template-plugin.php:61
+#: src/wppic-templates/wppic-template-theme.php:39
+#: src/block/templates/PluginCard.js:84 src/block/templates/ThemeCard.js:70
+#: dist/main.js:2
+msgid "More info"
+msgstr "Plus d'infos"
+
+#: src/wppic-templates/wppic-template-theme-large.php:32
+#: src/wppic-templates/wppic-template-theme-large.php:41
+#: src/wppic-templates/wppic-template-plugin.php:53
+#: src/wppic-templates/wppic-template-plugin.php:66
+#: src/wppic-templates/wppic-template-plugin.php:67
+#: src/wppic-templates/wppic-template-plugin.php:75
+#: src/wppic-templates/wppic-template-plugin-flex.php:77
+#: src/wppic-templates/wppic-template-plugin-large.php:54
+#: src/wppic-templates/wppic-template-plugin-large.php:63
+#: src/wppic-templates/wppic-template-theme-flex.php:44
+#: src/wppic-templates/wppic-template-theme.php:31
+#: src/wppic-templates/wppic-template-theme.php:44
+#: src/wppic-templates/wppic-template-theme.php:45
+#: src/wppic-templates/wppic-template-theme.php:53
+msgid "Direct download"
+msgstr "Téléchargement direct"
+
+#: src/wppic-templates/wppic-template-theme-large.php:30
+#: src/wppic-templates/wppic-template-plugin.php:68
+#: src/wppic-templates/wppic-template-plugin-flex.php:61
+#: src/wppic-templates/wppic-template-plugin-large.php:52
+#: src/block/templates/PluginLarge.js:66 src/block/templates/ThemeLarge.js:44
+#: src/block/templates/PluginFlex.js:36 dist/main.js:2
+msgid "Current Version:"
+msgstr "Version actuelle :"
+
+#: src/wppic-templates/wppic-template-plugin.php:87
+#: src/wppic-templates/wppic-template-theme.php:65
+msgid "Back"
+msgstr "Retour"
+
+#: src/wppic-templates/wppic-template-theme-large.php:23
+#: src/wppic-templates/wppic-template-theme-large.php:28
+#: src/wppic-templates/wppic-template-theme-flex.php:25
+#: src/wppic-templates/wppic-template-theme-flex.php:28
+#: src/wppic-templates/wppic-template-theme-flex.php:52
+#: src/wppic-templates/wppic-template-theme.php:23
+#: src/wppic-templates/wppic-template-theme.php:24
+#: src/wppic-templates/wppic-template-theme.php:60
+#: src/wppic-templates/wppic-template-theme.php:62
+msgid "WordPress.org Theme Page"
+msgstr "Page WordPress.org du thème"
+
+#: src/wppic-templates/wppic-template-theme-large.php:45
+#: src/wppic-templates/wppic-template-theme-flex.php:48
+#: src/wppic-templates/wppic-template-theme.php:35
+#: src/wppic-templates/wppic-template-theme.php:57
+#: src/block/templates/ThemeLarge.js:86
+#: src/block/templates/ThemeWordPress.js:95 src/block/templates/ThemeFlex.js:88
+#: src/block/templates/ThemeCard.js:61 dist/main.js:2
+msgid "Version"
+msgstr "Version"
+
+#: src/wppic-templates/wppic-template-theme-flex.php:31
+#: src/wppic-templates/wppic-template-theme.php:46
+#: src/wppic-templates/wppic-template-theme-wordpress.php:28
+#: src/block/templates/ThemeWordPress.js:34 src/block/templates/ThemeFlex.js:36
+#: dist/main.js:2
+msgid "Theme Preview"
+msgstr "Aperçu du thème"
+
+#: src/wppic-templates/wppic-template-plugin-wordpress.php:55
+#: src/wppic-templates/wppic-template-theme-wordpress.php:38
+#: src/block/templates/ThemeWordPress.js:49 src/block/templates/ThemeFlex.js:98
+#: src/block/templates/PluginFlex.js:106
+#: src/block/templates/PluginWordPress.js:45 dist/main.js:2
+msgid "Download"
+msgstr "Télécharger"
+
+#: src/wppic-templates/wppic-template-plugin-wordpress.php:75
+#: src/block/templates/PluginWordPress.js:113 dist/main.js:2
+msgid "Compatible with WordPress"
+msgstr "Compatible avec WordPress"
+
+#. Description of the plugin
+msgid "WP Plugin Info Card displays plugins & themes identity cards in a beautiful box with a smooth rotation effect using WordPress.org Plugin API & WordPress.org Theme API. Dashboard widget included."
+msgstr "WP Plugin Info Card affiche la carte d’identité d’extensions ou de thèmes dans un petite carte animée par un effet de rotation 3D en utilisant les informations des API de thème et extensions de WordPress.org. Un widget pour suivre les statistiques de téléchargements et de votes de vos extensions et thèmes préférés est inclus."
+
+#. Author URI of the plugin
+msgid "http://b-website.com/"
+msgstr "http://b-website.com/"
+
+#: src/wppic-templates/wppic-template-theme-wordpress.php:53
+msgid "Version: %s"
+msgstr "Version : %s"
+
+#: src/wppic-templates/wppic-template-plugin-wordpress.php:72
+msgid "%s Active Installs"
+msgstr "%s installations actives"
+
+#: src/wppic-templates/wppic-template-plugin-wordpress.php:69
+#: src/wppic-templates/wppic-template-theme-wordpress.php:47
+msgid "%s ago"
+msgstr "il y a %s"
+
+#: src/wppic-templates/wppic-template-plugin-wordpress.php:64
+#: src/wppic-templates/wppic-template-theme-wordpress.php:42
+#: src/block/templates/ThemeWordPress.js:57
+#: src/block/templates/PluginWordPress.js:67 dist/main.js:2
+msgid "(based on %s rating)"
+msgid_plural "(based on %s ratings)"
+msgstr[0] "(basée sur %s note)"
+msgstr[1] "(basée sur %s noteq)"
+
+#: src/wppic-templates/wppic-template-plugin-wordpress.php:59
+#: src/wppic-templates/wppic-template-theme-wordpress.php:35
+#: src/block/templates/ThemeWordPress.js:42
+#: src/block/templates/PluginWordPress.js:53 dist/main.js:2
+msgid "By %s"
+msgstr "Par %s"
+
+#: src/wppic-templates/wppic-template-plugin-wordpress.php:48
+#: src/wppic-templates/wppic-template-theme-wordpress.php:32
+msgid "More information about %s"
+msgstr "Plus d’informations à propos de %s"
+
+#: src/wppic-templates/wppic-template-plugin-wordpress.php:34
+msgctxt "Active plugin installs"
+msgid "1+ Million"
+msgstr "+1 Million"
+
+#: wp-plugin-info-card.php:142
+msgid "Once Weekly"
+msgstr "Une fois par semaine"
+
+#: src/wp-plugin-info-card-admin.php:193
+msgid "plugin slug name - Please refer to the plugin URL on wordpress.org to determine its slug: https://wordpress.org/plugins/THE-SLUG/"
+msgstr "indetifiant du nom de l’extension - Veuillez vous référer à son URL wordpress.org pour le déterminer : https://wordpress.org/plugins/THE-SLUG/"
+
+#: src/wp-plugin-info-card-admin.php:155
+msgid "Something went wrong"
+msgstr "Quelque chose s’est mal passé"
+
+#: src/wp-plugin-info-card-add-plugin.php:126
+msgid "Add a plugin"
+msgstr "Ajouter une extension"
+
+#: src/wp-plugin-info-card-add-plugin.php:127
+msgid "Please refer to the plugin URL on wordpress.org to determine its slug"
+msgstr "Merci de vous référer à l'URL de l’extension sur WordPress.org pour déterminer son identifiant"

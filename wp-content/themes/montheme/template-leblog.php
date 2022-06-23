@@ -22,6 +22,37 @@ get_header();
             <h2 class="sousTitre"><?php the_field('sous-titre') ?></h2>
         </div>
     </div>
+    <div class="sectionListeBlog row content">
+        <div class="col4">
+            <div class="article">
+                <?php 
+                $image = get_field('pp1');
+                if( !empty( $image ) ): ?>
+                    <img src="<?php echo esc_url($image['url']); ?>" class="photo" alt="<?php echo esc_attr($image['alt']); ?>" />
+                <?php endif; ?>
+                <h2 class="textArticle"><?php the_field('a1') ?></h2>
+                <button typeclass="boutonSousTitre">2 minutes</input>
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    <img src="https://c0.wallpaperflare.com/preview/483/210/436/car-green-4x4-jeep.jpg" alt="rover" />
+                </div>
+                <div class="card-body">
+                    <span class="tag tag-teal">Technology</span>
+                    <h4>
+                        Why is the Tesla Cybertruck designed the way it
+                        is?
+                    </h4>
+                    <p>
+                        An exploration into the truck's polarising design
+                    </p>
+                    <div class="user">
+                        <button typeclass="boutonSousTitre">2 minutes</input>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 <?php get_footer();
 ?>

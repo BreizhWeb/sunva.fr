@@ -5,7 +5,7 @@
   <div class="container p-4">
 
     <!-- Section: Text -->
-    <section class="d-flex justify-content-center align-items-center">
+    <section>
         <div class="row">
             <div class="col-6">
               <a class="navbar-brand" href="<?php echo home_url(); ?>">   <?php 
@@ -16,9 +16,9 @@
               </a>   
             </div>
             <div class="col-6">
-                <p><a class="text-white" href="#">02 99 01 03 22</a></p>
-                <p><a class="text-white" href="#">contact@sunva.fr</a></p>
-                <p>35 Rue des Dolimites - 56000 VANNES</p>
+                <p><a class="text-white" href="http://localhost/Sunva/contact/">02 99 01 03 22</a></p>
+                <p><a class="text-white" href="http://localhost/Sunva/contact/">contact@sunva.fr</a></p>
+                <p><a class="text-white" href="https://www.google.fr/maps/place/MyDigitalSchool+Vannes/@47.6777925,-2.8066197,17z/data=!3m1!4b1!4m5!3m4!1s0x48101fbbefdb17df:0xb65781705dcb27e5!8m2!3d47.677789!4d-2.802135">Rue des Dolimites - 56000 VANNES</p>
             </div>
         </div>
     </section>
@@ -28,10 +28,10 @@
     <!-- Section: Social media -->
     <section class="mb-2">
        <!-- Facebook -->
-       <a class="btn btn-floating m-1 iconeHome" href="https://www.facebook.com/sunva.fr" role="button"><i class="fab fa-facebook-f"></i></a>
+       <a class="iconeHome" href="https://www.facebook.com/sunva.fr" role="button"><i class="fab fa-facebook-f"></i></a>
 
       <!-- Instagram -->
-      <a class="btn btn-floating m-1 iconeHome" href="https://www.instagram.com/sunva.fr/" role="button"><i class="fab fa-instagram"></i></a>
+      <a class="iconeHome" href="https://www.instagram.com/sunva.fr/" role="button"><i class="fab fa-instagram"></i></a>
 
     </section>
     <!-- Section: Social media -->
